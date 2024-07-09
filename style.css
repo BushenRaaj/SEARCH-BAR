@@ -3,18 +3,22 @@ body{
     padding: 0;
 }
 
-img{
-    border: 1px solid black;
-    width: 150px;
-    border-radius: 100px;
-}
-
 .main{
+    margin-top: 200px;
+    margin-left: 400px;
     text-align: center;
     border: 2px solid black;
-    width: 400px;
-    margin-top: 150px;
-    margin-left: 220px;
-    padding: 10px;
-    background-color: antiquewhite;
+    width: 300px;
+    height: 40px;
+    background-color:rgb(219, 208, 208);
+}
+
+.container{
+    margin-top: 8px;
+}
+input:focus{
+    background-color: aqua;
+}
+button:hover{
+    background-color: aqua;
 }
